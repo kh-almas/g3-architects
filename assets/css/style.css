@@ -6,7 +6,7 @@ body{
     padding: 0;
 }
 
-nav, section, footer{
+nav, section{
     padding: 0 80px;
     margin: auto;
     /*max-width: 1920px;*/
@@ -55,6 +55,7 @@ button{
 }
 
 /*  Header Section  */
+
 header{
 
     background-color: rgba(255, 144, 14, 0.1);
@@ -108,8 +109,8 @@ header{
     margin: 50px 0 45px 0;
 }
 
-
 /* Extra section */
+
 .can_do h2{
     text-align: center;
     margin-bottom: 10px;
@@ -135,6 +136,7 @@ header{
 }
 
 /*  Feature List  */
+
 .feature_list{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -205,7 +207,6 @@ header{
     border-radius: 10px;
 }
 
-
 /* Some Fact */
 @keyframes change_color{
     from{
@@ -257,9 +258,6 @@ header{
     animation: p_color 3s ease-in-out 0.1s infinite alternate;
 }
 
-
-
-
 /* Our Sponsors */
 
 .sponsors_content{
@@ -283,13 +281,14 @@ header{
 }
 
 /*  Footer  */
+
 footer{
     background-color: #FFF4E7;
     margin: 50px 80px 0 80px;
 }
 
 footer p{
-    padding: 10px 0;
+    padding: 10px 20px;
     text-align: center;
 }
 
@@ -312,12 +311,10 @@ footer p{
     .feature_image img{
         margin-top: 30px;
     }
-
-    /* Some Fact */
-    /* Our Sponsors */
 }
 @media only screen and (max-width: 480px){
     /*  Header Section  */
+
     .logo{
         font-size: 25px;
         margin: 30px auto;
@@ -348,9 +345,6 @@ footer p{
         left: 0;
     }
 
-    /* Some Fact */
-    /* Our Sponsors */
-
 }
 
 @media only screen and (max-width: 970px){
@@ -359,8 +353,10 @@ footer p{
         grid-template-columns: repeat(1, 1fr);
     }
 
-    /* Some Fact */
-    /* Our Sponsors */
+    /*footer*/
+    footer{
+        margin: 0;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1042px){
@@ -379,6 +375,7 @@ footer p{
     }
 
     /*  Brand Details  */
+
     .brand_details_title{
         font-size: 55px;
     }
@@ -389,7 +386,4 @@ footer p{
         top: -90px;
         left: 50px;
     }
-
-    /* Some Fact */
-    /* Our Sponsors */
 }
